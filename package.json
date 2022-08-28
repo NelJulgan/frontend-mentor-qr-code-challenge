@@ -10,5 +10,8 @@
   "keywords": [],
   "author": "",
   "homepage": "https://github.com/NelJulgan/frontend-mentor-qr-code-challenge.git",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
