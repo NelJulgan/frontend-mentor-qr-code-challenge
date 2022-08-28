@@ -14,7 +14,7 @@
 }
 
 body{
-  background: var(--Grayish-blue);
+  background: var(--Light-gray);
   font-family:'Outfit', sans-serif;
   font-size: 15px;
   display: flex;
@@ -33,18 +33,22 @@ img{
 }
 
 .card{
+ 
   display: flex;
   flex-direction: column;
   background: var(--White);
   justify-content: center;
-  align-items: center;
-  padding: 16px;
+  align-items: center;  
   border-radius: 20px;
   text-align: center;
   margin-block-end: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-  
+}
+
+
+.card-content{
+  padding: 20px;
 }
 
 .qrcode{
@@ -58,6 +62,7 @@ img{
   font-size: 23px;
   width: 280px;
   margin-block-end: 28px;
+  color: var(--Dark-blue);
  
 }
 .card-text{
@@ -66,6 +71,7 @@ img{
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 45px;
+  color: var(--Grayish-blue);
 }
 
 @media (min-width: 375px){
@@ -76,7 +82,7 @@ img{
     background: var(--White);
     justify-content: center;
     align-items: center;
-    padding: 22px;
+    
     border-radius: 20px;
     text-align: center;
     margin-block-end: 20px;  
